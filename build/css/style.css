@@ -590,6 +590,18 @@ video {
   margin-top: 2rem;
 }
 
+.-mb-16 {
+  margin-bottom: -4rem;
+}
+
+.-mb-20 {
+  margin-bottom: -5rem;
+}
+
+.-mb-28 {
+  margin-bottom: -7rem;
+}
+
 .flex {
   display: flex;
 }
@@ -682,6 +694,10 @@ video {
   width: 24rem;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
 .max-w-10 {
   max-width: 2.5rem;
 }
@@ -752,6 +768,14 @@ video {
 
 .rounded-md {
   border-radius: 0.375rem;
+}
+
+.rounded-2xl {
+  border-radius: 1rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
 }
 
 .border-2 {
@@ -863,6 +887,22 @@ video {
   padding-top: 0.75rem;
 }
 
+.pt-36 {
+  padding-top: 9rem;
+}
+
+.pt-48 {
+  padding-top: 12rem;
+}
+
+.pt-56 {
+  padding-top: 14rem;
+}
+
+.pt-44 {
+  padding-top: 11rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -890,6 +930,21 @@ video {
   line-height: 1rem;
 }
 
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -900,6 +955,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .text-attributioncol {
@@ -920,6 +979,11 @@ video {
 .text-textcol {
   --tw-text-opacity: 1;
   color: hsl(208 11% 55% / var(--tw-text-opacity));
+}
+
+.text-palecyan {
+  --tw-text-opacity: 1;
+  color: hsl(193 100% 96% / var(--tw-text-opacity));
 }
 
 .brightness-0 {
@@ -1096,6 +1160,11 @@ video {
   .sm\:py-7 {
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
+  }
+
+  .sm\:py-10 {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   .sm\:pb-10 {
@@ -1291,8 +1360,24 @@ video {
     margin-top: 2rem;
   }
 
+  .xl\:h-16 {
+    height: 4rem;
+  }
+
   .xl\:w-1\/2 {
     width: 50%;
+  }
+
+  .xl\:w-56 {
+    width: 14rem;
+  }
+
+  .xl\:w-64 {
+    width: 16rem;
+  }
+
+  .xl\:w-72 {
+    width: 18rem;
   }
 
   .xl\:gap-40 {
@@ -1312,6 +1397,51 @@ video {
   .xl\:px-14 {
     padding-left: 3.5rem;
     padding-right: 3.5rem;
+  }
+
+  .xl\:py-16 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .xl\:px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .xl\:px-28 {
+    padding-left: 7rem;
+    padding-right: 7rem;
+  }
+
+  .xl\:px-36 {
+    padding-left: 9rem;
+    padding-right: 9rem;
+  }
+
+  .xl\:px-72 {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
+  .xl\:px-80 {
+    padding-left: 20rem;
+    padding-right: 20rem;
+  }
+
+  .xl\:px-96 {
+    padding-left: 24rem;
+    padding-right: 24rem;
+  }
+
+  .xl\:py-28 {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+
+  .xl\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .xl\:pl-16 {
